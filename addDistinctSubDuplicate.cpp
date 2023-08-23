@@ -1,7 +1,7 @@
 /*          The function accepts four integers 'a', 'b', 'c' and 'd' as its argument. 
             Implement the function to find the sum of distinct number and subtract the 
             duplicate number and return.
-
+            Hello Ajay
             Input  :- 4 5 4 8
             Output :- 13
 */
