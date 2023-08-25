@@ -9,7 +9,7 @@
         You have numbers n and k. Your task is to print the permutation of length n with decreasing coefficient k.
 
         Input :- 5 2
-        Output :- 1 
+        Output :- 1 2 5 4 3
 
 */
 
