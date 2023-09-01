@@ -2,7 +2,7 @@
             Implement the function to find the sum of distinct number and subtract the 
             duplicate number and return.
             Hello Ajay
-            Input  :- 4 5 4 8
+            Input  :- 4 5 4 8 // 
             Output :- 13
 */
 
