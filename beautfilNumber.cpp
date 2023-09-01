@@ -11,11 +11,11 @@
 using namespace std;
 bool fun(int n,set<int>&st) {
     int sum = 0;
-        while(n > 0) {
-            int rem = n % 10;
-            int sq = rem * rem;
-            sum += sq;
-            n /= 10;
+        while(n > 0) {              // 1            
+            int rem = n % 10;       // 1
+            int sq = rem * rem;     // 1
+            sum += sq;              // 1
+            n /= 10;                // 0
             if(n == 0) {
                 if(sum == 1) {
                 return true;
@@ -24,8 +24,8 @@ bool fun(int n,set<int>&st) {
                     return false;
                 else {
                     st.insert(sum);
-                    n = sum;
-                    sum = 0;
+                    n = sum;        // 68
+                    sum = 0;        // 0
                 }
             }
         }
