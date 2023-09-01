@@ -17,11 +17,10 @@ int addDistinctSubDuplicate(int a,int b,int c,int d) {
     int sum = 0;
 
     for(auto it:mp) {
+        sum += it.first;
         if(it.second > 1) {
             sum -= it.first;
         }
-        else
-            sum += it.first;
     }
     return sum;
 }
